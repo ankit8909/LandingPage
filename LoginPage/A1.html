@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="A1.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <style>
+      p {
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main-container">
+      <img
+        src="C:\Users\Ankit kumar\OneDrive\Desktop\Images\images.png"
+        alt=""
+      />
+      <div class="container">
+        <div class="left">
+          <div class="fb">
+            <form action="" onsubmit="return validatefrom()">
+              <h2>Login to Your Account</h2>
+              <p>Login using social Networks</p>
+              <div class="icon">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-google-plus"></i>
+                <i class="fa-brands fa-linkedin"></i>
+              </div>
+
+              <input
+                type="text"
+                placeholder="email"
+                autocomplete="on"
+                id="username"
+                required!
+              />
+              <br />
+              <p id="usererror" class="error"></p>
+              <input type="password" placeholder="password" id="password" />
+              <br />
+              <p id="passError" class="error"></p>
+              <button type="submit">Sign Up</button>
+              <input type="submit" />
+            </form>
+          </div>
+        </div>
+        <div class="right">
+          <div class="formbox">
+            <form action="" id="f1">
+              <h1>New Here?</h1>
+              <p>
+                Sign up and discover a great <br />
+                ammount of new opportunities!
+              </p>
+              <button class="btn">Sign Up</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      let username = document.getElementById("username");
+      let password = document.querySelectorAll("#password");
+
+      function validatefrom() {
+        if (username.value == ""){
+        //   document.querySelectorAll("#usererror").innerHTML = "user not available";  
+        document.getElementById("usererror").innerHTML = "user filled empty";
+          console.log("first") ;
+        }
+        return false;
+      }
+    </script>
+  </body>
+</html>

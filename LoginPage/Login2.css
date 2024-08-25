@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("C:/Users/Ankit kumar/OneDrive/Desktop/Landing Page/images/login.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.form-container {
+  border: 1px solid rgb(35, 34, 34);
+  width: 300px;
+  height: 440px;
+  padding: 19px;
+  /* background-image: linear-gradient(rgb(88, 168, 98), rgb(23, 171, 109)); */
+  background-color: white;
+  border-radius: 10px;
+}
+
+.form-group {
+  /* border: 2px solid green; */
+  margin-bottom: 10px;
+  border-bottom: 1px solid black;
+  outline: none;
+}
+
+.form-group label {
+  display: flex;
+  margin-bottom: 5px;
+}
+.form-group input {
+  width: 93%;
+  padding: 9px;
+  border: none;
+  background-color: transparent;
+  color: rgb(11, 11, 11);
+  outline: none;
+  font-size: 19px;
+  letter-spacing: 3px;
+}
+
+.form-container h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 2rem;
+  text-shadow: 1px 4px 10px rgb(146, 233, 15);
+  letter-spacing: 3px;
+}
+.submit-btn {
+  border: none;
+  border-radius: 5px;
+  display: block;
+  width: 100%;
+  padding: 8px;
+  color: white;
+  font-size: 1rem;
+  text-shadow: 2px 3px 10px rgb(19, 18, 18);
+  /* background-image: linear-gradient(rgb(16, 192, 211), rgb(204, 24, 224)); */
+  background-color: rgb(87, 88, 90);
+}
+
+p {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 12px;
+}
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+  padding-left: 0.2rem;
+}
+.icon i {
+  font-size: 1.3rem;
+  margin: 0.8rem;
+
+  padding-left: -2rem;
+  text-shadow: 1px 1px 2px rgb(0, 0, 0);
+}
+
+.fa-facebook {
+  /* background-color: darkslateblue; */
+  color: blue;
+  background-color: rgb(243, 240, 240);
+  border-radius: 90px;
+  text-shadow: 1px 1px 2px rgb(185, 178, 178);
+}
+
+.fa-twitter {
+  color: rgb(11, 130, 203);
+}
+.fa-google {
+  color: red;
+}

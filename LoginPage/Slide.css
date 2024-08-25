@@ -1,0 +1,29 @@
+.slide-container {
+  border: 5px solid #000;
+}
+
+.slide {
+  border: 2px solid red;
+}
+.slide img {
+  width: 40%;
+  height: 500px;
+}
+
+.arrow {
+  border: 1px solid #505152;
+  position: absolute;
+  top: 46%;
+  padding: 4px 15px;
+  border-radius: 60%;
+  background-color: rgb(214, 204, 204);
+  font-size: 20px;
+}
+.next {
+  border: 2px solid red;
+  right: 10px;
+}
+
+.slide {
+  display: none;
+}
